@@ -10,5 +10,14 @@
 'AliceAliceAliceAliceAlice'
 ```
 **变量名需符合以下3个规则：**
+1. 只能包含一个词。
+2. 只能包含字母、数字和下划线。
+3. 不能以数字开头。  
+  变量用小写字母开头是 Python 的管理。
+```python
+print ('What is your age?')
+myAge = input()
+print('You will be ' + str(int(myAge) + 1) + ' in a year.')
+```
 
 
