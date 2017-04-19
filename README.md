@@ -18,6 +18,16 @@
 print ('What is your age?')
 myAge = input()
 print('You will be ' + str(int(myAge) + 1) + ' in a year.')
+
+print()  # 打印一个空行
+input()  # 等待用户在键盘上输入一些文本，并按下回车键。
+len()    # 字符串中字符的个数
+str()
+int()
+float()
+//  # 取商
+**  # 幂
+
 ```
 
 
