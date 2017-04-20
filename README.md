@@ -32,3 +32,5 @@ float()
 
 ## 第 2 章 控制流
 所有控制流语句都以冒号结尾。
+git 提交报错：Can't update: no tracked branch
+解决方法：VCS>Git>Rebase
