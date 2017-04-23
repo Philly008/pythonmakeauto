@@ -55,4 +55,22 @@ git 提交报错：Can't update: no tracked branch
 1
 ```
 ## 第 3 章 函数
+记住，表达式是值和操作符的组合。
+None 必须大写首字母 N，表示没有值。
+```python
+>>> spam = print('Hello!')
+Hello!
+>>> None == spam    # 在幕后，对于所有没有 return 语句的函数定义，Python 都会在末尾加上 return None
+True
+>>> print('Hello','world',sep=',')
+Hello,world
+
+print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+Print objects to the text stream file, separated by sep and followed by end. sep, end and file, if present, must be given as keyword arguments.
+```
+  有 4 条法则，来区分一个变量是处于局部作用还是全局作用域：
+1. 如果变量在全局作用域中使用（即在所有函数之外），它就总是全局变量。
+2. 如果在一个函数中，有针对该变量的 global 语句，它就是全局变量。
+3. 否则，如果该变量用于函数中的赋值语句，它就是局部变量。
+4. 但是，如果该变量没有用在赋值语句中，它就是全局变量。
 
