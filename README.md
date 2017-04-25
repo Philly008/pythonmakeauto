@@ -105,8 +105,8 @@ Print objects to the text stream file, separated by sep and followed by end. sep
 >>> cheese
 [0, 'Hello!', 2, 3, 4, 5]
 ```
-** spam[2] 是一个列表和下标。 **        
-** spam[1:4] 是一个列表和切片。切片向上增长，但不包括第二个下标的值。 **        
+**spam[2] 是一个列表和下标。**        
+**spam[1:4] 是一个列表和切片。切片向上增长，但不包括第二个下标的值。**        
     一个常见的 Python 技巧，是在 for 循环中使用 range(len(someList)), 迭代列表的每一个下标。    
     用 index() 方法在列表中查找值    
     用 append() 和 insert() 方法在列表中添加值。    
@@ -116,8 +116,8 @@ Print objects to the text stream file, separated by sep and followed by end. sep
     元组与列表的主要区别在于，元组像字符串一样，是不可变的。    
     用 list() 和 tuple() 函数来转换类型。    
     变量包含对列表值得引用，而不是列表值本身。但对于字符串和整数值就包含了字符串或整数值。    
-    ** copy() **:用来复制列表或字典这样的可变值，而不只是复制引用        
-    ** deepcopy() **：如果要复制的列表中包含了列表，就用此方法。        
+    **copy()**:用来复制列表或字典这样的可变值，而不只是复制引用        
+    **deepcopy()**：如果要复制的列表中包含了列表，就用此方法。        
  
 ## 第 5 章 字典和结构化数据
     keys()
