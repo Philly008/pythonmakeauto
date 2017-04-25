@@ -120,3 +120,28 @@ Print objects to the text stream file, separated by sep and followed by end. sep
     ** deepcopy() **：如果要复制的列表中包含了列表，就用此方法。
  
 ## 第 5 章 字典和结构化数据
+    keys()
+    values()
+    items()
+    in
+    not in
+    get()
+    setdefault()
+    
+```python
+>>> spam = {'color':'red', 'age':42}
+>>> spam.keys()
+dict_keys(['color', 'age'])
+>>> list(spam.keys())
+['color', 'age']
+>>> for k, v in spam.items():
+	print('Key: ' + k + ' Value: ' + str(v))
+
+	
+Key: color Value: red
+Key: age Value: 42
+```
+    如果程序中导入 pprint 模块，就可以使用 pprint() 和 pformat() 函数，它们将“漂亮打印”一个字典的字。
+    'cat' in spam 检查字典中是不是有一个 'cat' 键，而 'cat' in spam.values() 检查是否有一个值 'cat' 对应于 spam 中的某个键。
+    
+## 第 6 章 字符串操作
