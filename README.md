@@ -200,3 +200,12 @@ pip install -U ModuleName   // 升级到最新版本
 >>> pyperclip.paste()
 'Hello world!'
 ```
+
+
+
+
+
+
+
+
+
