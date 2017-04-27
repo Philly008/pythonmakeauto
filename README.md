@@ -145,28 +145,28 @@ Key: age Value: 42
     'cat' in spam 检查字典中是不是有一个 'cat' 键，而 'cat' in spam.values() 检查是否有一个值 'cat' 对应于 spam 中的某个键。
     
 ## 第 6 章 字符串操作
-使用双引号的一个好处就是字符串中可以使用单引号字符。
-**转义字符：**
-\'  单引号
-\"  双引号
-\t  制表符
-\n  换行符
-\\  倒斜杠
-可以在字符串开始的引号之前加上 r ，使它成为原始字符串，忽略所有的转义字符。
-用三重引号的多行字符串
-多行注释：""" """
-**有用的字符串方法：**
-upper()
-lower()
-isupper()
-islower()
-isalpha() 返回 True，如果字符串只包含字母，并且非空；
-isalnum() 返回 True，如果字符串只包含字母和数字，并且非空；
-isdecimal() 返回 True，如果字符串只包含数字字符，并且非空；
-isspace() 返回 True，如果只包含空格、制表符和换行，并且非空；
-istitle() 返回 True，如果字符串仅包含大写字母开头、后面都是小写字母的单词。
-startswith()
-endswith()
+使用双引号的一个好处就是字符串中可以使用单引号字符。    
+**转义字符：**    
+\'  单引号    
+\"  双引号    
+\t  制表符    
+\n  换行符    
+\\  倒斜杠    
+可以在字符串开始的引号之前加上 r ，使它成为原始字符串，忽略所有的转义字符。    
+用三重引号的多行字符串    
+多行注释：""" """    
+**有用的字符串方法：**    
+upper()    
+lower()    
+isupper()    
+islower()    
+isalpha() 返回 True，如果字符串只包含字母，并且非空；    
+isalnum() 返回 True，如果字符串只包含字母和数字，并且非空；    
+isdecimal() 返回 True，如果字符串只包含数字字符，并且非空；    
+isspace() 返回 True，如果只包含空格、制表符和换行，并且非空；    
+istitle() 返回 True，如果字符串仅包含大写字母开头、后面都是小写字母的单词。    
+startswith()    
+endswith()    
 ```python
 >>> 'abc12345'.islower()
 True
@@ -182,18 +182,18 @@ False
 >>> spam.strip('ampS')  # 告诉它在变量中存储的字符串两端，删除出现的 a、m、p和大写的 S。
 'BaconSpamEggs'
 ```
-join()  调用join() 方法的字符串，被插入到列表参数中每个字符串的中间。
-split()
-rjust()  右对齐
-ljust()
-center()
-strip()     删除空白字符
-rstrip()
-lstrip()
-**用 pyperclip 模块拷贝粘贴字符串：copy(), paste()**
-安装第三方模块：
-pip install ModuleName
-pip install -U ModuleName   // 升级到最新版本
+join()  调用join() 方法的字符串，被插入到列表参数中每个字符串的中间。    
+split()    
+rjust()  右对齐    
+ljust()    
+center()    
+strip()     删除空白字符    
+rstrip()    
+lstrip()    
+**用 pyperclip 模块拷贝粘贴字符串：copy(), paste()**    
+安装第三方模块：    
+pip install ModuleName    
+pip install -U ModuleName   // 升级到最新版本    
 ```python
 >>> import pyperclip
 >>> pyperclip.copy('Hello world!')
