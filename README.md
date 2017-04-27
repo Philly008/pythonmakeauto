@@ -200,7 +200,14 @@ pip install -U ModuleName   // 升级到最新版本
 >>> pyperclip.paste()
 'Hello world!'
 ```
-
+## 第 7 章 模式匹配与正则表达式
+\d 是一个正则表达式，表示一位数字字符，即任何一位 0 到 9 的数字。   
+*使用正则表达式的几个步骤：*
+1.用 import re 导入正则表达式模块。    
+2.用 re.compile() 函数创建一个 Regex 对象（记得使用原始字符串）。    
+3.向 Regex 对象的 search() 方法传入想查找的字符串。它返回一个 Match 对象。    
+4.调用 Match 对象的 group() 方法，返回实际匹配文本的字符串。    
+**正则表达式测试网址：http://www.regexpal.com/**
 
 
 
