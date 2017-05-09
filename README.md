@@ -13,7 +13,7 @@
 1. 只能包含一个词。
 2. 只能包含字母、数字和下划线。
 3. 不能以数字开头。  
-  变量用小写字母开头是 Python 的管理。
+  变量用小写字母开头是 Python 的惯例。
 ```python
 print ('What is your age?')
 myAge = input()
@@ -115,7 +115,7 @@ Print objects to the text stream file, separated by sep and followed by end. sep
     在行末使用续行字符 \ ，将一条指令写成多行。    
     元组与列表的主要区别在于，元组像字符串一样，是不可变的。    
     用 list() 和 tuple() 函数来转换类型。    
-    变量包含对列表值得引用，而不是列表值本身。但对于字符串和整数值就包含了字符串或整数值。    
+    变量包含对列表值的引用，而不是列表值本身。但对于字符串和整数值就包含了字符串或整数值。    
     **copy()**:用来复制列表或字典这样的可变值，而不只是复制引用        
     **deepcopy()**：如果要复制的列表中包含了列表，就用此方法。        
  
@@ -136,8 +136,6 @@ dict_keys(['color', 'age'])
 ['color', 'age']
 >>> for k, v in spam.items():
 	print('Key: ' + k + ' Value: ' + str(v))
-
-	
 Key: color Value: red
 Key: age Value: 42
 ```
@@ -208,6 +206,7 @@ pip install -U ModuleName   // 升级到最新版本
 3.向 Regex 对象的 search() 方法传入想查找的字符串。它返回一个 Match 对象。    
 4.调用 Match 对象的 group() 方法，返回实际匹配文本的字符串。    
 **正则表达式测试网址：http://www.regexpal.com/**
+
 
 
 
