@@ -33,7 +33,7 @@ class Baidu(unittest.TestCase):
 		# 保存设置的信息
 		driver.find_element_by_xpath("//input[@value='保存设置']").click()
 		time.sleep(2)
-		driver.switch_to_alert().accept()
+		driver.switch_to.alert().accept()
 	def tearDown(self):
 		self.driver.quit()
 		self.assertEqual([], self.verificationErrors)
