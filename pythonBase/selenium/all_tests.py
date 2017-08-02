@@ -12,7 +12,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 # 这里需要导入测试文件
-import baidu, youdao
+import pythonmakeauto.pythonBase.selenium.baidu as baidu, pythonmakeauto.pythonBase.selenium.youdao as youdao
 
 # 定义发送邮件
 def sentmail(file_new):
